@@ -283,5 +283,12 @@ namespace Session3_TPRedo
                 }
             }
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Hide();
+            (new CountryMain(_user)).ShowDialog();
+            Close();
+        }
     }
 }

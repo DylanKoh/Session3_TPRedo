@@ -36,7 +36,7 @@ namespace Session3_TPRedo
         private void btnHotelBooking_Click(object sender, EventArgs e)
         {
             Hide();
-            (new HotelBooking(_user)).ShowDialog();
+            (new HotelSelection(_user)).ShowDialog();
             Close();
         }
 
