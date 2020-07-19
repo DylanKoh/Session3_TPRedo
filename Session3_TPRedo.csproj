@@ -76,11 +76,11 @@
     <Compile Include="CountryMain.Designer.cs">
       <DependentUpon>CountryMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="CreateAccount.cs">
+    <Compile Include="3.2_CreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateAccount.Designer.cs">
-      <DependentUpon>CreateAccount.cs</DependentUpon>
+    <Compile Include="3.2_CreateAccount.Designer.cs">
+      <DependentUpon>3.2_CreateAccount.cs</DependentUpon>
     </Compile>
     <Compile Include="Hotel.cs">
       <DependentUpon>Session3Model.tt</DependentUpon>
@@ -117,8 +117,8 @@
     <EmbeddedResource Include="CountryMain.resx">
       <DependentUpon>CountryMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateAccount.resx">
-      <DependentUpon>CreateAccount.cs</DependentUpon>
+    <EmbeddedResource Include="3.2_CreateAccount.resx">
+      <DependentUpon>3.2_CreateAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
