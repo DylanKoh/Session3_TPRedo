@@ -42,7 +42,7 @@ namespace Session3_TPRedo
                         }
                         else
                         {
-                            MessageBox.Show($"Welcome {getUser.countryName}!", "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"Welcome {getUser.countryName}!", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             if (getUser.userTypeIdFK == 1)
                             {
                                 this.Hide();
