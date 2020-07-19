@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminMain.cs">
+    <Compile Include="3.4_AdminMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminMain.Designer.cs">
-      <DependentUpon>AdminMain.cs</DependentUpon>
+    <Compile Include="3.4_AdminMain.Designer.cs">
+      <DependentUpon>3.4_AdminMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Arrival.cs">
       <DependentUpon>Session3Model.tt</DependentUpon>
@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="3.1_Login.Designer.cs">
       <DependentUpon>3.1_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrivalSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrivalSummary.Designer.cs">
+      <DependentUpon>ArrivalSummary.cs</DependentUpon>
     </Compile>
     <Compile Include="CountryMain.cs">
       <SubType>Form</SubType>
@@ -82,8 +88,20 @@
     <Compile Include="3.2_CreateAccount.Designer.cs">
       <DependentUpon>3.2_CreateAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="GuestsSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestsSummary.Designer.cs">
+      <DependentUpon>GuestsSummary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hotel.cs">
       <DependentUpon>Session3Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HotelSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelSummary.Designer.cs">
+      <DependentUpon>HotelSummary.cs</DependentUpon>
     </Compile>
     <Compile Include="Hotel_Booking.cs">
       <DependentUpon>Session3Model.tt</DependentUpon>
@@ -113,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="3.1_Login.resx">
       <DependentUpon>3.1_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.4_AdminMain.resx">
+      <DependentUpon>3.4_AdminMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CountryMain.resx">
       <DependentUpon>CountryMain.cs</DependentUpon>

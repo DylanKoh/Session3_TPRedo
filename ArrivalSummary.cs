@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Session3_TPRedo
 {
-    public partial class AdminMain : Form
+    public partial class ArrivalSummary : Form
     {
-        public AdminMain()
+        public ArrivalSummary()
         {
             InitializeComponent();
         }
