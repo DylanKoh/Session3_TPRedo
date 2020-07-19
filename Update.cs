@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace Session3_TPRedo
 {
-    public partial class CountryMain : Form
+    public partial class Update : Form
     {
-        User _user;
-        public CountryMain(User user)
+        public Update(User user)
         {
             InitializeComponent();
-            _user = user;
-        }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            Hide();
-            (new Login()).ShowDialog();
-            Close();
         }
     }
 }
