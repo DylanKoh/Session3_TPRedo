@@ -103,11 +103,11 @@
     <Compile Include="Hotel.cs">
       <DependentUpon>Session3Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="HotelBooking.cs">
+    <Compile Include="3.7_HotelBooking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HotelBooking.Designer.cs">
-      <DependentUpon>HotelBooking.cs</DependentUpon>
+    <Compile Include="3.7_HotelBooking.Designer.cs">
+      <DependentUpon>3.7_HotelBooking.cs</DependentUpon>
     </Compile>
     <Compile Include="3.6_HotelSelection.cs">
       <SubType>Form</SubType>
@@ -171,8 +171,8 @@
     <EmbeddedResource Include="3.6_HotelSelection.resx">
       <DependentUpon>3.6_HotelSelection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HotelBooking.resx">
-      <DependentUpon>HotelBooking.cs</DependentUpon>
+    <EmbeddedResource Include="3.7_HotelBooking.resx">
+      <DependentUpon>3.7_HotelBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
