@@ -45,11 +45,15 @@ namespace Session3_TPRedo
                             MessageBox.Show($"Welcome {getUser.countryName}!", "Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             if (getUser.userTypeIdFK == 1)
                             {
-
+                                this.Hide();
+                                (new AdminMain()).ShowDialog();
+                                this.Close();
                             }
                             else
                             {
-
+                                Hide();
+                                (new CountryMain(getUser)).ShowDialog();
+                                Close();
                             }
                         }
                     }
@@ -60,7 +64,8 @@ namespace Session3_TPRedo
         private void btnCreate_Click(object sender, EventArgs e)
         {
             this.Hide();
-
+            (new CreateAccount()).ShowDialog();
+            this.Close();
         }
     }
 }
